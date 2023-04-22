@@ -20,7 +20,7 @@
     <title>Document</title>
   </head>
   <body class="bg-light">
-    <div class="container m-auto py-4">
+    <div class="container-md py-4" style="max-width: 1000px">
       <div class="d-flex flex-column align-items-center">
         <img
           class="mb-3"
@@ -28,20 +28,18 @@
           alt="Bootstrap image"
           style="width: 50px"
         />
+
         <h5>Checkout form</h5>
-        <div class="text-center mx-3">
-          <span>
-            Below is an example form built entirely with Bootstrap's form
-            controls. Each required form group has a validation state that can
-            be triggered by attempting to submit the form without completing it.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-            inventore, natus nostrum hic
-          </span>
-        </div>
+
+        <p class="text-center lead">
+          Below is an example form built entirely with Bootstrap's form
+          controls. Each required form group has a validation state that can be
+          triggered by attempting to submit the form without completing it.
+        </p>
       </div>
 
       <div class="row">
-        <div class="col-md-7 col-lg-8 order-md-first order-sm-last mt-5">
+        <div class="col-md-7 col-lg-8 order-md-first order-last mt-5">
           <h5 class="mb-3">Billing address</h5>
           <form class="row g-3">
             <div class="col-sm-6">
@@ -191,7 +189,7 @@
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Name on card</label>
               <input type="text" class="form-control" id="inputEmail4" />
-              <span class="text-muted fs-6">Full name displayed on card</span>
+              <small class="text-muted">Full name as displayed on card</small>
             </div>
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label"
@@ -208,7 +206,7 @@
               <input type="text" class="form-control" id="inputPassword6" />
             </div>
             <hr class="text-body-tertiary" />
-            <div class="col-12">
+            <div class="col-12 pt-0 mt-0">
               <button
                 type="button"
                 class="btn btn-primary text-white w-100 fw-medium mb-4"
@@ -302,9 +300,9 @@
           <p class="text-muted p-0 m-0">@2017-2021 Company Name</p>
         </div>
         <div>
-          <a href="#">Privacy</a>
+          <a href="#" class="mx-1">Privacy</a>
           <a href="#">Terms</a>
-          <a href="#">Support</a>
+          <a href="#" class="mx-1">Support</a>
         </div>
       </div>
     </div>
